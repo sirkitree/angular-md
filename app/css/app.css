@@ -28,3 +28,16 @@
   content: "";
   padding: 0;
 }
+
+html, body, .content {
+  height: 100%;
+}
+
+#markdown-input,
+#markdown-output {
+  width: 45%;
+  height: 90%;
+  display: block;
+  float: left;
+  margin-left: 15px;
+}
