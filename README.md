@@ -1,6 +1,6 @@
 # angular-md — a markdown previewer written in [AngularJS](http://angularjs.org/)
 
-Uses [Marked](https://github.com/chjj/marked) by [chjj](https://github.com/chjj).
+Uses [Marked](https://github.com/chjj/marked) by [chjj](https://github.com/chjj) for markdown parsing.
 
 ## Install
 With version 1.6.5 of Git and later, you can use:
