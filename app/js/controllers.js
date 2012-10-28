@@ -3,10 +3,8 @@
 /* Controllers */
 
 
-function MyCtrl1() {}
-MyCtrl1.$inject = [];
-
-
-function MyCtrl2() {
+function MyCtrl1($scope) {
+  $scope.markdown = "# test";
 }
-MyCtrl2.$inject = [];
+
+function MyCtrl2($scope) {}

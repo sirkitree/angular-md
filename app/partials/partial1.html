@@ -1,2 +1,2 @@
-<textarea id="markdown-input" ng-model="markdown"></textarea>
-<div id="markdown-output">{{markdown}}</div>
+<textarea ng-model="markdown" ng-change="change()" id="markdown-input"></textarea>
+<div id="markdown-output" ng-bind-html-unsafe="markdown|convert"></div>

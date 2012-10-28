@@ -3,8 +3,12 @@
 /* Filters */
 
 angular.module('myApp.filters', []).
-  filter('interpolate', ['version', function(version) {
-    return function(text) {
-      return String(text).replace(/\%VERSION\%/mg, version);
+  filter('convert', function() {
+    return function(text, convert) {
+      if (typeof text !== 'undefined') {
+        var converted = marked(text);
+        console.log(converted);
+        return converted;
+      }
     }
-  }]);
+  });
